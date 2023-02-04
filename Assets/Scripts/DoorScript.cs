@@ -18,10 +18,12 @@ public class DoorScript : MonoBehaviour
         if (isActive)
         {
             this.GetComponentInChildren<Animator>().Play("DoorOpen");
+            this.GetComponentInChildren<Animator>().SetBool("IsOpen", true);
         }
         else
         {
             this.GetComponentInChildren<Animator>().Play("DoorClose");
+            this.GetComponentInChildren<Animator>().SetBool("IsOpen", false);
         }
     }
 }
