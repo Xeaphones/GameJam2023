@@ -13,6 +13,9 @@ public class RootBehavior : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        if (Input.GetKeyDown("t"))
+        {
+            transform.localScale = new Vector2 (Random.Range(0.2f, 1), 1);
+        }
     }
 }
