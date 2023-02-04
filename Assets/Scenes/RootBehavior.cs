@@ -11,7 +11,7 @@ public class RootBehavior : MonoBehaviour
     void Start()
     {
         animator = GetComponent<Animator>();
-        scaleChange = new Vector3(-0.001f, -0.001f, 0);
+        scaleChange = new Vector3(-0.002f, -0.002f, 0);
     }
 
     // Update is called once per frame
