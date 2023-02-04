@@ -1,12 +1,7 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine;
-
-public class CharacterController : MonoBehaviour
+public class PlayerController : MonoBehaviour
 {
     public float speed = 10.0f;
-    public float jumpForce = 10.0f;
 
     private Rigidbody2D rb;
 
