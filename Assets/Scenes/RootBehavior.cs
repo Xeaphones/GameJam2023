@@ -4,18 +4,19 @@ using UnityEngine;
 
 public class RootBehavior : MonoBehaviour
 {
+    // public Slider slider;
+    private Animator animator;
+    public Vector3 scaleChange;
     // Start is called before the first frame update
     void Start()
     {
-        
+        animator = GetComponent<Animator>();
+        scaleChange = new Vector3(-0.001f, -0.001f, 0);
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown("t"))
-        {
-            transform.localScale = new Vector2 (Random.Range(0.2f, 1), 1);
-        }
+        transform.localScale += scaleChange;
     }
 }
