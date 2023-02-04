@@ -12,7 +12,14 @@ public class RootBehavior : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Progression+=ProgressionSpeed;        
-        transform.localScale = new Vector3(InitialScale - InitialScale * Progression * 0.01f,InitialScale - InitialScale * Progression * 0.01f, 1);
+        if (Progression < 100) {
+            Progression += ProgressionSpeed;
+            transform.localScale = new Vector3(InitialScale - InitialScale * Progression * 0.01f,InitialScale - InitialScale * Progression * 0.01f, 1);
+        }
+
+        if (Progression >= 100) {
+            transform.localScale = Vector3.zero;
+            Progression = 100;
+        }
     }
 }
