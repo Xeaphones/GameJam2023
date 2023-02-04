@@ -294,6 +294,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5538e83f098958f4d935ae75e5b29746, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Progression: 0
   scaleChange: {x: 0, y: 0, z: 0}
 --- !u!331 &104959579
 SpriteMask:
