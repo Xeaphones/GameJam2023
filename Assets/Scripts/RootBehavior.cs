@@ -1,11 +1,11 @@
 using UnityEngine;
-
 public class RootBehavior : MonoBehaviour
 {
     [Range(0, 100)]
     public float Progression = 0;
-    public float ProgressionSpeed = 0.1f;
-    public int InitialScale = 20;
+    public float ProgressionSpeed = 5;
+    public int InitialScale = 2;
+
     // Start is called before the first frame update
     void Start(){
         transform.localScale = new Vector3(InitialScale, InitialScale, 1);
