@@ -4,7 +4,7 @@ public class RootBehavior : MonoBehaviour
     [Range(0, 100)]
     public float Progression = 0;
     public float ProgressionSpeed = 5;
-    public int InitialScale = 10;
+    public int InitialScale = 2;
 
     // Start is called before the first frame update
     void Start(){}
