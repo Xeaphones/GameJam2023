@@ -20,4 +20,25 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/SampleScene.unity
     guid: e1f09cddc236cd68a8b5f2ea8d5fa814
+  - enabled: 1
+    path: Assets/Scenes/Map2.unity
+    guid: 4f59c0e81f982a44f95bf60ec62c49e7
+  - enabled: 1
+    path: Assets/Scenes/Map3.unity
+    guid: cd9ba5c8ccfbd384b9d8e2932ab1b53c
+  - enabled: 1
+    path: Assets/Scenes/Map4.unity
+    guid: be88d93d921932a4f92a0b5fc709f4cd
+  - enabled: 1
+    path: Assets/Scenes/Cine1.unity
+    guid: 8ceb0fa5c3ca4ea4dbf58930d917e219
+  - enabled: 1
+    path: Assets/Scenes/Cine2.unity
+    guid: d73dd4bb32043d84296da9b1fc5e923c
+  - enabled: 1
+    path: Assets/Scenes/Cine3.unity
+    guid: 79b2b11f2605f224eadbae4d320eee1a
+  - enabled: 1
+    path: Assets/Scenes/Cine4.unity
+    guid: 544b0f7d8f50a3e498864d5230d9bc01
   m_configObjects: {}

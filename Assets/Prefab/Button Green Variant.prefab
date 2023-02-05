@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &3672254069226879685
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4675309038697362474, guid: e479c2f9b7b727cd590ae4af48c7ca37, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4675309038697362474, guid: e479c2f9b7b727cd590ae4af48c7ca37, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -2.8074837
+      objectReference: {fileID: 0}
+    - target: {fileID: 4675309038697362474, guid: e479c2f9b7b727cd590ae4af48c7ca37, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.9239149
+      objectReference: {fileID: 0}
+    - target: {fileID: 4675309038697362474, guid: e479c2f9b7b727cd590ae4af48c7ca37, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4675309038697362474, guid: e479c2f9b7b727cd590ae4af48c7ca37, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4675309038697362474, guid: e479c2f9b7b727cd590ae4af48c7ca37, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4675309038697362474, guid: e479c2f9b7b727cd590ae4af48c7ca37, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4675309038697362474, guid: e479c2f9b7b727cd590ae4af48c7ca37, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4675309038697362474, guid: e479c2f9b7b727cd590ae4af48c7ca37, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4675309038697362474, guid: e479c2f9b7b727cd590ae4af48c7ca37, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4675309038697362474, guid: e479c2f9b7b727cd590ae4af48c7ca37, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4675309038697362475, guid: e479c2f9b7b727cd590ae4af48c7ca37, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: e074eba5e9913398ea3e3d902b30fa4f, type: 3}
+    - target: {fileID: 4675309038697362485, guid: e479c2f9b7b727cd590ae4af48c7ca37, type: 3}
+      propertyPath: ButtonIdle
+      value: 
+      objectReference: {fileID: 21300000, guid: e074eba5e9913398ea3e3d902b30fa4f, type: 3}
+    - target: {fileID: 4675309038697362485, guid: e479c2f9b7b727cd590ae4af48c7ca37, type: 3}
+      propertyPath: ButtonPressed
+      value: 
+      objectReference: {fileID: 21300000, guid: 3a31d955ccb6000dd936c7366405307e, type: 3}
+    - target: {fileID: 4675309038697362486, guid: e479c2f9b7b727cd590ae4af48c7ca37, type: 3}
+      propertyPath: m_Name
+      value: Button Green
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: e479c2f9b7b727cd590ae4af48c7ca37, type: 3}
