@@ -123,11 +123,6 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1 &27278961 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 7169716927824554619, guid: 2cdef0b6cc1d7c307b9a3aef47a61994, type: 3}
-  m_PrefabInstance: {fileID: 268621485}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &268621485
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -454,20 +449,20 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1068232681411941373, guid: 3387983357ffacfa58b9db33ac085285, type: 3}
       propertyPath: Doors.Array.size
-      value: 0
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 1068232681411941373, guid: 3387983357ffacfa58b9db33ac085285, type: 3}
       propertyPath: Doors.Array.data[0]
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1775065354}
     - target: {fileID: 1068232681411941373, guid: 3387983357ffacfa58b9db33ac085285, type: 3}
       propertyPath: Doors.Array.data[1]
       value: 
-      objectReference: {fileID: 453700822}
+      objectReference: {fileID: 1967612294}
     - target: {fileID: 1068232681411941373, guid: 3387983357ffacfa58b9db33ac085285, type: 3}
       propertyPath: Doors.Array.data[2]
       value: 
-      objectReference: {fileID: 453700822}
+      objectReference: {fileID: 1937139449}
     - target: {fileID: 1068232681411941374, guid: 3387983357ffacfa58b9db33ac085285, type: 3}
       propertyPath: m_Name
       value: Button Red 1
@@ -527,12 +522,16 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4675309038697362485, guid: e479c2f9b7b727cd590ae4af48c7ca37, type: 3}
       propertyPath: Doors.Array.size
-      value: 0
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 4675309038697362485, guid: e479c2f9b7b727cd590ae4af48c7ca37, type: 3}
       propertyPath: Doors.Array.data[0]
       value: 
-      objectReference: {fileID: 27278961}
+      objectReference: {fileID: 1967612294}
+    - target: {fileID: 4675309038697362485, guid: e479c2f9b7b727cd590ae4af48c7ca37, type: 3}
+      propertyPath: Doors.Array.data[1]
+      value: 
+      objectReference: {fileID: 453700822}
     - target: {fileID: 4675309038697362486, guid: e479c2f9b7b727cd590ae4af48c7ca37, type: 3}
       propertyPath: m_Name
       value: Button Yellow 1
@@ -592,12 +591,20 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4675309038697362485, guid: e479c2f9b7b727cd590ae4af48c7ca37, type: 3}
       propertyPath: Doors.Array.size
-      value: 1
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 4675309038697362485, guid: e479c2f9b7b727cd590ae4af48c7ca37, type: 3}
       propertyPath: Doors.Array.data[0]
       value: 
-      objectReference: {fileID: 27278961}
+      objectReference: {fileID: 1229936236}
+    - target: {fileID: 4675309038697362485, guid: e479c2f9b7b727cd590ae4af48c7ca37, type: 3}
+      propertyPath: Doors.Array.data[1]
+      value: 
+      objectReference: {fileID: 453700822}
+    - target: {fileID: 4675309038697362485, guid: e479c2f9b7b727cd590ae4af48c7ca37, type: 3}
+      propertyPath: Doors.Array.data[2]
+      value: 
+      objectReference: {fileID: 1937139449}
     - target: {fileID: 4675309038697362486, guid: e479c2f9b7b727cd590ae4af48c7ca37, type: 3}
       propertyPath: m_Name
       value: Button Yellow 2
@@ -6679,8 +6686,8 @@ Tilemap:
   - first: {x: 29, y: -6, z: 0}
     second:
       serializedVersion: 2
-      m_TileIndex: 2
-      m_TileSpriteIndex: 3
+      m_TileIndex: 1
+      m_TileSpriteIndex: 1
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -6689,8 +6696,8 @@ Tilemap:
   - first: {x: -11, y: -5, z: 0}
     second:
       serializedVersion: 2
-      m_TileIndex: 2
-      m_TileSpriteIndex: 3
+      m_TileIndex: 1
+      m_TileSpriteIndex: 1
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -7089,8 +7096,8 @@ Tilemap:
   - first: {x: 29, y: -5, z: 0}
     second:
       serializedVersion: 2
-      m_TileIndex: 2
-      m_TileSpriteIndex: 3
+      m_TileIndex: 1
+      m_TileSpriteIndex: 1
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -7099,8 +7106,8 @@ Tilemap:
   - first: {x: -11, y: -4, z: 0}
     second:
       serializedVersion: 2
-      m_TileIndex: 2
-      m_TileSpriteIndex: 3
+      m_TileIndex: 1
+      m_TileSpriteIndex: 1
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -10230,21 +10237,21 @@ Tilemap:
   m_TileAssetArray:
   - m_RefCount: 0
     m_Data: {fileID: 0}
-  - m_RefCount: 702
+  - m_RefCount: 706
     m_Data: {fileID: 11400000, guid: 08ef1ec6e536db248a6dd0974663c758, type: 2}
-  - m_RefCount: 4
-    m_Data: {fileID: 11400000, guid: 2409019a392df094b93516e4bb401959, type: 2}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
   - m_RefCount: 0
     m_Data: {fileID: 0}
   m_TileSpriteArray:
   - m_RefCount: 0
     m_Data: {fileID: 0}
-  - m_RefCount: 702
+  - m_RefCount: 706
     m_Data: {fileID: 21300000, guid: 64e9cbf529e80da4dafdd7207d58339b, type: 3}
   - m_RefCount: 0
     m_Data: {fileID: 0}
-  - m_RefCount: 4
-    m_Data: {fileID: 21300000, guid: ba7fecb7f11e70046b55a039cbd127cb, type: 3}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
   m_TileMatrixArray:
   - m_RefCount: 706
     m_Data:
@@ -10509,28 +10516,28 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8220335211565190896, guid: c8a2d16be7201b243939298b974bb35d, type: 3}
       propertyPath: Doors.Array.size
-      value: 0
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 8220335211565190896, guid: c8a2d16be7201b243939298b974bb35d, type: 3}
       propertyPath: Doors.Array.data[0]
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1775065354}
     - target: {fileID: 8220335211565190896, guid: c8a2d16be7201b243939298b974bb35d, type: 3}
       propertyPath: Doors.Array.data[1]
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1967612294}
     - target: {fileID: 8220335211565190896, guid: c8a2d16be7201b243939298b974bb35d, type: 3}
       propertyPath: Doors.Array.data[2]
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1937139449}
     - target: {fileID: 8220335211565190896, guid: c8a2d16be7201b243939298b974bb35d, type: 3}
       propertyPath: Doors.Array.data[3]
       value: 
-      objectReference: {fileID: 1967612294}
+      objectReference: {fileID: 1229936236}
     - target: {fileID: 8220335211565190896, guid: c8a2d16be7201b243939298b974bb35d, type: 3}
       propertyPath: Doors.Array.data[4]
       value: 
-      objectReference: {fileID: 1937139449}
+      objectReference: {fileID: 453700822}
     - target: {fileID: 8220335211565190899, guid: c8a2d16be7201b243939298b974bb35d, type: 3}
       propertyPath: m_Name
       value: Button Green 2
