@@ -9962,37 +9962,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1808609641 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 7633575666084627089, guid: df35a1921caba7e41bcd2d436f648687, type: 3}
-  m_PrefabInstance: {fileID: 1991679912002198131}
-  m_PrefabAsset: {fileID: 0}
---- !u!61 &1808609645
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1808609641}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: -3.1353092, y: -2.2303143}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 1, y: 1}
-    oldSize: {x: 20, y: 8.89}
-    newSize: {x: 20, y: 8.89}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 6.2706184, y: 4.4606285}
-  m_EdgeRadius: 0
 --- !u!1 &1839964915
 GameObject:
   m_ObjectHideFlags: 0
@@ -10559,7 +10528,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7633575666799146443, guid: df35a1921caba7e41bcd2d436f648687, type: 3}
       propertyPath: Speed
-      value: 100
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 7633575666889239345, guid: df35a1921caba7e41bcd2d436f648687, type: 3}
       propertyPath: m_LocalPosition.y
@@ -10833,7 +10802,7 @@ PrefabInstance:
     - target: {fileID: 4675309038697362485, guid: e479c2f9b7b727cd590ae4af48c7ca37, type: 3}
       propertyPath: Doors.Array.data[1]
       value: 
-      objectReference: {fileID: 1649661408}
+      objectReference: {fileID: 0}
     - target: {fileID: 4675309038697362486, guid: e479c2f9b7b727cd590ae4af48c7ca37, type: 3}
       propertyPath: m_Name
       value: Button Yellow
