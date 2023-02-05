@@ -1,25 +1,34 @@
 using UnityEngine;
 public class RootBehavior : MonoBehaviour
 {
-    [Range(0, 100)]
-    public float Progression = 0;
-    public float ProgressionSpeed = 5;
-    public int InitialScale = 2;
+    public float Speed = 1;
+    public bool isDone = false; 
+    public Roots_movement[] Roots;
 
     // Start is called before the first frame update
-    void Start(){}
+    void Start()
+    {
+        Roots = GetComponentsInChildren<Roots_movement>();
+        foreach (Roots_movement root in Roots)
+        {
+            root.Speed = Speed * root.Speed;
+        }
+    }
 
     // Update is called once per frame
     void Update()
     {
-        if (Progression < 100) {
-            Progression += ProgressionSpeed;
-            transform.localScale = new Vector3(InitialScale - InitialScale * Progression * 0.01f,InitialScale - InitialScale * Progression * 0.01f, 1);
+        foreach (Roots_movement root in Roots)
+        {
+            if (root.TargetPosition == root.transform.position)
+            {
+                continue;
+            } else
+            {
+                isDone = false;
+                return;
+            }
         }
-
-        if (Progression >= 100) {
-            transform.localScale = Vector3.zero;
-            Progression = 100;
-        }
+        isDone = true;
     }
 }
