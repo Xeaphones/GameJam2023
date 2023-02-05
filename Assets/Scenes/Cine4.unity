@@ -588,11 +588,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1890043994831674829, guid: a772692df8ef59a4d9f4e9e47444c340, type: 3}
       propertyPath: m_SizeDelta.x
-      value: -706.12
+      value: -719.69
       objectReference: {fileID: 0}
     - target: {fileID: 1890043994831674829, guid: a772692df8ef59a4d9f4e9e47444c340, type: 3}
       propertyPath: m_SizeDelta.y
-      value: -334.71
+      value: -343.92
       objectReference: {fileID: 0}
     - target: {fileID: 1890043994831674829, guid: a772692df8ef59a4d9f4e9e47444c340, type: 3}
       propertyPath: m_LocalPosition.x
@@ -624,11 +624,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1890043994831674829, guid: a772692df8ef59a4d9f4e9e47444c340, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 346
+      value: 327.02
       objectReference: {fileID: 0}
     - target: {fileID: 1890043994831674829, guid: a772692df8ef59a4d9f4e9e47444c340, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -160
+      value: -158.66
       objectReference: {fileID: 0}
     - target: {fileID: 1890043994831674829, guid: a772692df8ef59a4d9f4e9e47444c340, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -644,7 +644,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1890043994831674830, guid: a772692df8ef59a4d9f4e9e47444c340, type: 3}
       propertyPath: m_Colors.m_NormalColor.a
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1890043994831674830, guid: a772692df8ef59a4d9f4e9e47444c340, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
