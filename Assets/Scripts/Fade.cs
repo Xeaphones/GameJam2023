@@ -7,6 +7,7 @@ public class Fade : MonoBehaviour
     public float Speed = 0.01f;
     public bool isDone = false;
     public float wait = 0;
+    public GameObject text;
     // Start is called before the first frame update
     void Start()
     {
@@ -25,6 +26,10 @@ public class Fade : MonoBehaviour
         if (GetComponent<Renderer>().material.color.a <= 0.5)
         {
             isDone = true;
+        }
+        if (GetComponent<Renderer>().material.color.a <= 0.95)
+        {
+            text.SetActive(true);
         }
     }
 }
