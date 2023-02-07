@@ -4,6 +4,7 @@ public class PlayerController : MonoBehaviour
     public float speed = 10.0f;
     private Rigidbody2D rb;
     private string direction = "down";
+    public RootBehavior rootBehavior;
 
     void Start()
     {
@@ -12,6 +13,10 @@ public class PlayerController : MonoBehaviour
 
     void Update()
     {
+        if (rootBehavior.isDone == true)
+        {
+            return;
+        }
         float horizontal = Input.GetAxis("Horizontal");
         float vertical = Input.GetAxis("Vertical");
 
